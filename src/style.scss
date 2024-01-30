@@ -4,19 +4,57 @@ $size-base: 0.25rem; // 4px
 $fontSize: 0.875rem;
 $fontFamily: 'Manrope', sans-serif;
 $textColor: #151515;
+$dangerColor: #f04f43;
+$primaryColor: #2f4ea9;
 
 .payabliPaymentForm {
   font-size: $fontSize;
   font-family: $fontFamily;
   line-height: 1.15;
+  padding: 0 $size-base;
 
+  .row {
+    --bs-gutter-x: $size-base * 2;
+  }
+  .small,
+  small {
+    font-size: 12px;
+  }
+  .errorMessageComponent {
+    color: $dangerColor;
+    margin-top: $size-base;
+  }
   label {
     margin-bottom: $size-base * 2;
+    &[for='cardNumber'],
+    &[for='cardExpirationDate'],
+    &[for='cardCvv'],
+    &[for='achAccountHolderName'],
+    &[for='achAccountType'],
+    &[for='achRouting'],
+    &[for='achAccount'] {
+      &:before {
+        content: '*';
+        color: $dangerColor;
+      }
+    }
   }
   .form-control {
     padding: $size-base * 2;
     height: auto;
     line-height: 1.15;
+    border-radius: 6px;
+    border-color: #d3d3d3;
+    &:hover {
+      border-color: $primaryColor;
+    }
+    &:focus {
+      box-shadow: 0 0 0 0.2rem rgba(47, 78, 169, 0.15);
+      border-color: $primaryColor;
+    }
+    &.input-error {
+      border-color: $dangerColor;
+    }
   }
   .input-cc {
     background-image: none !important;
