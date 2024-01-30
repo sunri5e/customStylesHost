@@ -1,5 +1,1 @@
-@media (max-width: 440px) {
-  .payabliPaymentForm .fullw-440 {
-    width: auto !important;
-  }
-}
+@import"https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap";.payabliPaymentForm{font-size:.875rem;font-family:"Manrope",sans-serif;line-height:1.15}.payabliPaymentForm label{margin-bottom:.5rem}.payabliPaymentForm .form-control{padding:.5rem;height:auto;line-height:1.15}.payabliPaymentForm .input-cc{background-image:none !important;padding-left:.5rem !important}@media(max-width: 440px){.payabliPaymentForm .fullw-440.col-1{width:8.3333333333% !important}.payabliPaymentForm .fullw-440.col-2{width:16.6666666667% !important}.payabliPaymentForm .fullw-440.col-3{width:25% !important}.payabliPaymentForm .fullw-440.col-4{width:33.3333333333% !important}.payabliPaymentForm .fullw-440.col-5{width:41.6666666667% !important}.payabliPaymentForm .fullw-440.col-6{width:50% !important}.payabliPaymentForm .fullw-440.col-7{width:58.3333333333% !important}.payabliPaymentForm .fullw-440.col-8{width:66.6666666667% !important}.payabliPaymentForm .fullw-440.col-9{width:75% !important}.payabliPaymentForm .fullw-440.col-10{width:83.3333333333% !important}.payabliPaymentForm .fullw-440.col-11{width:91.6666666667% !important}.payabliPaymentForm .fullw-440.col-12{width:100% !important}}
