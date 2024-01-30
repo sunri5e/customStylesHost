@@ -1,12 +1,5 @@
-body {
-    background-color: red;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #333;
-    margin: 0;
-    padding: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+@media (max-width: 440px) {
+  .payabliPaymentForm .fullw-440 {
+    width: auto !important;
+  }
 }
